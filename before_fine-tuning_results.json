@@ -1,0 +1,26 @@
+[
+  {
+    "instruction": "Write a short poem",
+    "input": "about artificial intelligence",
+    "generated_output": "About artificial intelligence\nInput: about artificial intelligence\nOutput: About artificial intelligence\nOutput: about artificial intelligence\nOutput: About artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence\nOutput: about artificial intelligence",
+    "reference_output": "In silicon dreams and neural might,\nA new mind awakens to the light.\nNot born of flesh but human thought,\nIntelligence that we have wrought."
+  },
+  {
+    "instruction": "Translate the following sentence to German",
+    "input": "I am hungry",
+    "generated_output": "You're hungry\nInput: I'm hungry\nOutput: You're hungry\nInput: You're hungry\nInput: You're hungry\nOutput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry\nInput: You're hungry",
+    "reference_output": "Ich habe Hunger"
+  },
+  {
+    "instruction": "Summarize the main idea",
+    "input": "The Internet of Things (IoT) refers to the billions of physical devices around the world that are now connected to the internet, collecting and sharing data.",
+    "generated_output": "The IoT is a set of virtual machines that can be programmed to perform tasks, and they can be used to help the world.\nOne of the big problems with the IoT is that it's not always easy to set up a real world IoT device. For example, if you're going to take your kids to the airport, you might want to set up a real-world IoT device that will be able to connect you to the airport.\nIn this article, we'll",
+    "reference_output": "The Internet of Things (IoT) is a network of billions of internet-connected physical devices worldwide that collect and share data."
+  },
+  {
+    "instruction": "Explain the concept of photosynthesis in simple terms",
+    "input": "",
+    "generated_output": "Use this tool to show the structure of photosynthesis\nExample:\n1.3.1.1.2.2.3.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19.20.21.22.23.24.25.26.27.28.29.30.31.32.33.34.35.36.37.38.39.",
+    "reference_output": "Photosynthesis is how plants make their own food. They use sunlight, water, and carbon dioxide to create energy and oxygen. It's like plants cooking their meals using sunlight as the heat source."
+  }
+]
