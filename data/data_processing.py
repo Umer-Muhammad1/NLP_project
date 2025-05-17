@@ -86,7 +86,7 @@ def process_dataset(max_length, split="train", num_proc=4):
     # Then process it
     processed_dataset = dataset.map(
         lambda x: prepare_training_example(x, max_length=max_length),
-        remove_columns=dataset[split].column_names,
+        remove_columns=dataset.column_names,
         desc="Processing dataset",
         num_proc=num_proc
     )
