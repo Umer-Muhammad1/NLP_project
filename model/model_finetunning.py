@@ -8,12 +8,12 @@ from transformers import DataCollatorForLanguageModeling
 from data.data_processing import process_dataset
 
 
-def train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=50):
+def train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=500):
     # Load model and tokenizer
     model, tokenizer = load_model_and_tokenizer()
 
     # Process dataset
-    processed_dataset = process_dataset(max_length=512, split="train", num_proc=4)
+    processed_dataset = process_dataset(max_length=512, num_proc=4)
 
     # Configure LoRA
     peft_config = LoraConfig(

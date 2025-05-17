@@ -25,7 +25,7 @@ def main():
 
     # 2. Train (fine-tune) the model with LoRA
     print("\n\n=============== STARTING FINE-TUNING ===============")
-    finetuned_model, tokenizer = train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=1000)
+    finetuned_model, tokenizer = train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=500)
 
     # 3. Evaluate after fine-tuning using the fine-tuned model directly
     print("\n\n=============== AFTER FINE-TUNING EVALUATION ===============")
