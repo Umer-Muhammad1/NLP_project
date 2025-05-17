@@ -8,7 +8,7 @@ from transformers import DataCollatorForLanguageModeling
 from data.data_processing import process_dataset
 
 
-def train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=1000):
+def train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=50):
     # Load model and tokenizer
     model, tokenizer = load_model_and_tokenizer()
 
@@ -57,7 +57,7 @@ def train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=1000):
     trainer = Trainer(
         model=model,
         args=training_args,
-        train_dataset=processed_dataset["train"],
+        train_dataset=processed_dataset,
         data_collator=data_collator,
     )
 
