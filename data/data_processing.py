@@ -5,7 +5,7 @@ model, tokenizer = load_model_and_tokenizer()
 
 
 
-def process_dataset(max_length, split="train", num_proc=4):
+def process_dataset(max_length, num_proc=4):
     """
     Load and process the dataset by applying the prepare_training_example function.
     
