@@ -1,12 +1,7 @@
-from datasets import load_dataset
-
-from datasets import load_dataset
+import json
+from datasets import Dataset
 
 def load_training_data():
-    dataset = load_dataset(
-        "tatsu-lab/alpaca",
-        split="train",
-        download_mode="force_redownload",
-        cache_dir=None  # Avoid local cache altogether
-    )
-    return dataset
+    with open("NLP_project/data/alpaca_data.json", "r") as f:
+        data = json.load(f)
+    return Dataset.from_list(data)
