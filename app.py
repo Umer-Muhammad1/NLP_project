@@ -31,10 +31,8 @@ def main():
     print("\n\n=============== AFTER FINE-TUNING EVALUATION ===============")
     after_results = run_model_evaluation(
         model_name="After Fine-tuning",
-        load_model_fn=lambda: (finetuned_model, tokenizer),
-        save_results=True,
-        display_examples=3,
-        device=device
+        save_results=True
+        
     )
 
     print("\nFine-tuning and evaluation complete. Model saved to ./gpt2-alpaca-lora")
