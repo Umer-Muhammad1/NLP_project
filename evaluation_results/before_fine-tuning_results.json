@@ -2,19 +2,19 @@
   {
     "instruction": "Write a short poem about artificial intelligence.",
     "input": "",
-    "generated_output": "Write a short poem about artificial intelligence.\nThe \"thesis\" is the method of writing a short poem about artificial intelligence. It is an artificial intelligence method, but it can be done using the same methods.\nIn this article I will show you how to write a short poem about artificial intelligence.\nThe short poem will be a collection of short poems about artificial intelligence.\nThe poem will be a collection of short poems about artificial intelligence.\nI will show you how to write a short",
+    "generated_output": "Write a short poem about artificial intelligence.\nIf you like this tutorial, you should check out my other tutorials. I've also made some other videos that are also available on YouTube, but I don't have any support for those.\nEnjoy!",
     "reference_output": "Silicon minds in digital space,\nLearning, growing at rapid pace.\nNot alive, yet thinking deep,\nPromises to keep, and miles to leap."
   },
   {
     "instruction": "Explain the concept of machine learning to a 10-year-old.",
     "input": "",
-    "generated_output": "In this example, the machine learning model will show the probability of an answer given a given number of words.\nIn this example, the machine learning model will show the probability of an answer given a given number of words. Learning the model: The machine learning model learns to predict the correct answer based on the given input.\nLearning the model: The machine learning model learns to predict the correct answer based on the given input. The accuracy: The accuracy of the model depends on the input.",
+    "generated_output": "How to use machine learning to improve your design.\nLearning: The process of learning new concepts.\nLearning: The process of learning new ideas.\nLearning: The process of learning new concepts.\nLearning: The process of learning new ideas.\nLearning: The process of learning new concepts.\nLearning: The process of learning new concepts.\nLearning: The process of learning new concepts.\nLearning: The process of learning new concepts.\nLearning: The process of learning new concepts.",
     "reference_output": "Machine learning is like teaching a computer to learn from examples, just like how you learn from your teacher. When you show the computer lots of pictures of cats, it starts to recognize cats on its own!"
   },
   {
     "instruction": "Summarize the following text.",
     "input": "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
-    "generated_output": "The text below is a summary of the research involved in the synthesis of this research.\nSource: http://www.diversity.edu/~lwj/nlp/\n[1] http://www.diversity.edu/~lwj/nlp/\n[2] http://www.diversity.edu/~lwj/nlp/\n[3] http://www.diversity.edu/~lwj/nlp/",
+    "generated_output": "Summarize the following text.\nInput: Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.\nOutput: Summarize the following text.\nInput: Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human",
     "reference_output": "NLP is a field that focuses on enabling computers to understand and work with human language, combining linguistics, computer science, and AI to analyze text data."
   }
 ]
