@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "instruction": "Write a short poem about artificial intelligence.",
+      "input": "",
+      "generated_output": "Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write a short poem about artificial intelligence.\nOutput: Write",
+      "reference_output": "Silicon minds in digital space,\nLearning, growing at rapid pace.\nNot alive, yet thinking deep,\nPromises to keep, and miles to leap.",
+      "metrics": {
+        "bleu": 0,
+        "rouge": {
+          "rouge-1": 0.0,
+          "rouge-2": 0.0,
+          "rouge-l": 0.0
+        },
+        "bertscore": 0.8044329881668091
+      }
+    },
+    {
+      "instruction": "Explain the concept of machine learning to a 10-year-old.",
+      "input": "",
+      "generated_output": "The program is written in Python, and uses an experimental model called the Machine Learning Algorithm.\nThe program also uses the JAR file to generate a 3D model of the problem.\nThe problem is to determine if a given algorithm can be applied to the problem at all. This is done by passing a set of parameters to the algorithm, which is then used to estimate the total number of iterations needed to solve the problem. The algorithm will then evaluate the number of iterations required to solve",
+      "reference_output": "Machine learning is like teaching a computer to learn from examples, just like how you learn from your teacher. When you show the computer lots of pictures of cats, it starts to recognize cats on its own!",
+      "metrics": {
+        "bleu": 1.0003688322288243e-231,
+        "rouge": {
+          "rouge-1": 0.14457830863695761,
+          "rouge-2": 0.0,
+          "rouge-l": 0.12048192309478897
+        },
+        "bertscore": 0.8303195238113403
+      }
+    },
+    {
+      "instruction": "Summarize the following text.",
+      "input": "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
+      "generated_output": "The natural language processing paradigm is used to describe the behavior of human language processing. The input to the NLP paradigm is a set of natural language processing instructions.\nThe set of natural language processing instructions is called the corpus, and is composed of a set of sets of instructions for the processing of human language. The corpus is a set of instructions that are designed to represent human language processing. The corpus can be interpreted in three ways:\nAs the corpus is composed of instructions for processing, the processing",
+      "reference_output": "NLP is a field that focuses on enabling computers to understand and work with human language, combining linguistics, computer science, and AI to analyze text data.",
+      "metrics": {
+        "bleu": 2.6517744597115435e-155,
+        "rouge": {
+          "rouge-1": 0.22950819194840108,
+          "rouge-2": 0.02298850165147384,
+          "rouge-l": 0.22950819194840108
+        },
+        "bertscore": 0.8415489792823792
+      }
+    }
+  ],
+  "aggregated_metrics": {
+    "avg_bleu": 8.839248199038479e-156,
+    "avg_rouge-1": 0.12469550019511956,
+    "avg_rouge-2": 0.007662833883824614,
+    "avg_rouge-l": 0.11666337168106335,
+    "avg_bertscore": 0.8254338304201762
+  }
+}
