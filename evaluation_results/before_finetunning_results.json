@@ -1,0 +1,20 @@
+[
+  {
+    "instruction": "Write a short poem about artificial intelligence.",
+    "input": "",
+    "generated_output": "A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput: A short poem about artificial intelligence.\nOutput:",
+    "reference_output": "Silicon minds in digital space,\nLearning, growing at rapid pace.\nNot alive, yet thinking deep,\nPromises to keep, and miles to leap."
+  },
+  {
+    "instruction": "Explain the concept of machine learning to a 10-year-old.",
+    "input": "",
+    "generated_output": "Explain the concept of machine learning to a 10-year-old.\nSolution: A simple program that uses the RNN algorithm to learn the concept of machine learning.\nSolution: A simple program that uses the RNN algorithm to learn the concept of machine learning.\nSolution: A simple program that uses the RNN algorithm to learn the concept of machine learning.\nSolution: A simple program that uses the RNN algorithm to learn the concept of machine learning.\nSolution: A simple program",
+    "reference_output": "Machine learning is like teaching a computer to learn from examples, just like how you learn from your teacher. When you show the computer lots of pictures of cats, it starts to recognize cats on its own!"
+  },
+  {
+    "instruction": "Summarize the following text.",
+    "input": "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
+    "generated_output": "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.\nSource: http://www.courses.uic.edu/~bennett/nLP/\nA. Introduction to Natural Language Processing: A New Paradigm for Artificial Intelligence\nThis course covers the topics of natural language processing, neural networks,",
+    "reference_output": "NLP is a field that focuses on enabling computers to understand and work with human language, combining linguistics, computer science, and AI to analyze text data."
+  }
+]

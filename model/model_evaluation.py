@@ -68,7 +68,7 @@ def evaluate_model(model, tokenizer, test_examples, device="cuda", max_new_token
 
 
 # Function to run tests and display results
-def run_model_evaluation(model_name="Base Model", save_results=False):
+def run_model_evaluation(model_name= "Base_model", model=model, tokenizer=tokenizer, save_results=False):
     print(f"\n===== {model_name} Evaluation =====")
 
     model.to(device)

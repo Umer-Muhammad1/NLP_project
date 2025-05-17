@@ -20,17 +20,23 @@ def main():
     #     print("Sample test examples created and saved to ./data/test_examples.json")
 
     # 1. Evaluate before fine-tuning
+    model, tokenizer = load_model_and_tokenizer()
     print("\n\n=============== BEFORE FINE-TUNING EVALUATION ===============")
-    before_results = run_model_evaluation("Before Fine-tuning", save_results=True)
+    before_results = run_model_evaluation(model_name= "Before Finetunning" , model=model, tokenizer=tokenizer, save_results=True)
 
     # 2. Train (fine-tune) the model with LoRA
     print("\n\n=============== STARTING FINE-TUNING ===============")
     finetuned_model, tokenizer = train_lora_model(output_dir="./gpt2-alpaca-lora", max_steps=500)
+    # Save the model and tokenizer
+    finetuned_model.save_pretrained("./gpt2-alpaca-lora")
+    tokenizer.save_pretrained("./gpt2-alpaca-lora")
 
     # 3. Evaluate after fine-tuning using the fine-tuned model directly
     print("\n\n=============== AFTER FINE-TUNING EVALUATION ===============")
     after_results = run_model_evaluation(
-        model_name="After Fine-tuning",
+        model_name= "After Finetunning" , 
+        model=finetuned_model,
+        tokenizer=tokenizer,
         save_results=True
         
     )
