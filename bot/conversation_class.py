@@ -1,11 +1,31 @@
 from transformers import TextGenerationPipeline
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from model.model_loader import load_model_and_tokenizer
+
+
+
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from peft import PeftModel, PeftConfig
+
+def load_model(model_path="./gpt2-alpaca-lora"):
+    # Load LoRA configuration
+    config = PeftConfig.from_pretrained(model_path)
+
+    # Load base model
+    base_model = AutoModelForCausalLM.from_pretrained(config.base_model_name_or_path)
+
+    # Apply LoRA weights
+    model = PeftModel.from_pretrained(base_model, model_path)
+
+    # Load tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+
+    return model, tokenizer
+
 
 class ChatbotConversation:
     def __init__(self, model_path):
-        self.model, self.tokenizer = load_model_and_tokenizer()
+        self.model, self.tokenizer = load_model(model_path)
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.model.to(self.device)
         self.pipeline = TextGenerationPipeline(
